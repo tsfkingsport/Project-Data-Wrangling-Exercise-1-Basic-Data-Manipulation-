@@ -16,6 +16,8 @@ my_df <- my_df[1:25, ]
 head(my_df)
  tolower(my_df$company)
  
+# I am sure there is a more elegent way to do this with a function
+#but I don't know how at the moment. 
 my_df[1:6, 1] <-  "philips"
 my_df[7:13, 1] <- "akzo"
 my_df[14:16, 1] <- "philips"
